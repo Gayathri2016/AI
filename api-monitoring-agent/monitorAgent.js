@@ -54,3 +54,5 @@ async function monitorAPI(apiUrl) {
 
 // Run every 10 minutes
 setInterval(() => monitorAPI(process.env.TARGET_API), 600000);
+
+
